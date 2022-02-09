@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: Roboto,Arial,Helvetica,sans-serif; */
+    /* background: #F2994A;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #F2C94C, #F2994A); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+    */
+}
+form{
+    text-align: center;
+    margin-top: 200px;
+}
+input{
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.btn{
+    width: 10%;
+    height: 40px;
+    background-color: limegreen;
+    border-radius: 10px;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+ .logo{
+    width: 12%;
+    padding: 5px;
+}
+header{
+    display: flex;
+    border-bottom: 1px solid
+    /* justify-content: space-between; */
+}
+.nav-links li{
+    display: inline-block;
+    padding:28px;   
+}
+section h1{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-size: 2.857rem;
+    line-height: 3.75rem;
+}
+.img-section{
+    margin-top: 320px;
+}
+.product{
+    padding: 0 6%;
+}
+.product-img{
+    width: 100%;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-top: 16px;
+    text-align: center;
+}
+.product-img, a{
+    color: black;
+}
+.text{
+    margin: 0 0 0 8.6%;
+    position: absolute;
+    max-width: 300px;
+    text-align: left;
+    top: 850px;
+}
+.text2{
+    color: #fff;
+    margin: 0 0 0 8.6%;
+    position: absolute;
+    max-width: 300px;
+    text-align: left;
+    top: 220%;
+}
+.text3{
+    color: #fff;
+    margin: 0 0 0 8.6%;
+    position: absolute;
+    max-width: 300px;
+    text-align: left;
+    top: 320%;
+}
+.product-2{
+    display: flex;
+}
+.product-img1{
+    width: 50%;
+    padding: 25px 73px;
+}
+.testomonial{
+    margin-top: 40px;
+}
+.testomonial,h2{
+text-align: center;
+}
